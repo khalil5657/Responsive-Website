@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    background-color: rgb(225, 225, 225);
+}
+header{
+    background-image: url(vecteezy_abstract-background-vector-illustration-abstract-blue_23884308-1.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.biography{
+    width: 85%;
+    /* height: 45%; */
+    /* display: flex; */
+    background-color: white;
+    box-shadow: 3px 3px 2px rgb(168, 165, 165);
+    padding: 16px;
+
+}
+.biography > img{
+    /* width: 40%; */
+    width: 50%;
+    /* height: 100%; */
+    /* min-height: 450px; */
+    float: left;
+    padding: 1rem;
+}
+
+.biography > div{
+    background-color: white;
+    /* height: 80%; */
+    margin-top: 5%;
+    /* padding: 16px; */
+    /* box-shadow: 3px 3px 2px rgb(168, 165, 165); */
+}
+.biography p{
+    color: rgb(66, 65, 65);
+    font-size: 1.4rem;
+    padding: 1rem;
+    /* background-color: white; */
+}
+.biography h1{
+    font-size: 2.4rem;
+    font-family: "Playfair Display", serif;
+    /* background-color: white;
+    box-shadow: 3px 3px 2px rgb(168, 165, 165); */
+
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    margin-top: 3rem;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    transition: transform 0.6s;
+
+}
+.icons img:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+.mywork{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 3rem;
+}
+main{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.theworks{
+    width: 85%;
+}
+.mywork .proj{
+    /* height: 40vh; */
+    /* display: grid;
+    grid-template-rows: 2fr 1fr; */
+    background-color: white;
+    box-shadow: 2px 2px 4px gray;
+    
+}
+.mywork p, .mywork h3, .mywork h4{
+    margin: 0;
+    padding: 0;
+}
+.screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.name{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.name img{
+    width: 26px;
+    height: 26px;
+}
+/* .proj > img{
+    width: 100%;
+} */
+.content{
+    padding: 1rem;
+}
+.screen1{
+    background-image: url(printable-to-do-list-template-1-fefefe-010101.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+.screen2{
+    background-image: url(74120iEFB3B5B6BE577E0C.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+.screen3{
+    background-image: url(1_hPhzeFD3htF7ly1AMmAVbw.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+    /* width: 100vw; */
+    background-color: rgb(25, 113, 236);
+    margin-top: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.contacticons img{
+    width: 40px;
+    height: 40px;
+}
+/* .picture img{
+    height: 80%;
+    width: 80%;
+} */
+.picture{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+picture img{
+    width: 90%;
+    height: 90%;
+}
+.contactinfo{
+    color: white;
+    padding: 3rem;
+    
+   height: 80%;
+   width: 40%;
+}
+.phone img, .email img{
+    width: 20px;
+    height: 20px;
+}
+.contactinfo h5{
+    font-size: 2.4rem;
+    font-family: "Playfair Display", serif; ;
+    margin: 0;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.contacticons{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+.screen4{
+    /* background-image: url(74120iEFB3B5B6BE577E0C.jpg); */
+    background-size: cover;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+.screen5{
+    /* background-image: url(1_hPhzeFD3htF7ly1AMmAVbw.png); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+.screen6{
+    /* background-image: url(74120iEFB3B5B6BE577E0C.jpg); */
+    background-size: cover;
+    width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+.phone, .email{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media (max-width: 850px){
+    .mywork{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .picture{
+        width: 50%;
+        
+    }
+    .contactinfo{
+        width: 50%;
+    }
+    picture{
+        height: 80%;
+        width: 80%;
+    }
+    picture img{
+        height: 100%;
+        width: 100%;
+        min-width: 200px;
+        min-height: 350px;
+        
+    }
+    .biography > img{
+        float:left;
+    }
+}
+/* .test img{
+    float: left;
+    height: 400px;
+    width: 400px;
+} */
+@media (max-width: 550px){
+    .theworks h2{
+        text-align: center;
+
+    }
+    .mywork{
+        grid-template-columns: 1fr ;
+    }
+    footer{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        /* padding-bottom: 0; */
+    }
+    .contactinfo{
+        width: 100%;
+        padding: 0;
+        padding-top: 3rem;
+    /* padding-left: 3rem; */
+    
+        /* padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0; */
+    }
+    .contactinfo h5{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .contactinfo p, .contactinfo span{
+        font-size: 1.5rem;
+    }
+    .contactinfo img{
+        width: 55px;
+        height: 55px;
+    }
+    .picture{
+        width: 100%;
+        height: 100%;
+        
+    }
+    picture{
+        width: 100%;
+    }
+    picture img{
+        width: 100%;
+        height: 100%;
+    }
+    .contacticons{
+        justify-content: center;
+
+    }
+    .contacticons img{
+        width: 24px;
+        height: 24px;
+    }
+    .biography{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .biography > img{
+        width: 100%;
+        padding: 0;
+        max-height: 900px;
+        min-height: 600px;
+    }
+    .biography h1{
+        text-align: center;
+    }
+    .icons{
+        justify-content: center;
+    }
+}
+@media (max-width:510px){
+    .contactinfo h5{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .contactinfo p, .contactinfo span{
+        font-size: 1.2rem;
+    }
+    .phone img, .email img{
+        width: 18px;
+        height: 18px;
+    }
+}
